@@ -7,7 +7,6 @@ import (
 	"golang.org/x/net/html"
 	"os"
   "strings"
-  "sync"
 )
 
 func crawl_recursive(url_s string, level int, external_crawl bool, seen_urls map[string]struct{}) error {
